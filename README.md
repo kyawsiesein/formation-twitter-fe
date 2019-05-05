@@ -4,7 +4,7 @@
 
 ## Deployment
 
-1. Deployed on heroku
+1. Deployed on heroku. My site is [here](https://formation-twitter-client.herokuapp.com/)
 
 ## My thoughts
 
