@@ -1,0 +1,39 @@
+.tweet {
+  .info {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 13px;
+      font-style: italic;
+      color: #ddd;
+    }
+  }
+
+  .like,
+  .dislike,
+  .retweet,
+  .unretweet {
+    cursor: pointer;
+    background: transparent;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .dislike,
+  .unretweet {
+    svg {
+      fill: #1da1f2;
+    }
+  }
+
+  .like,
+  .retweet {
+    svg {
+      fill: #507f9c6b;
+    }
+  }
+}

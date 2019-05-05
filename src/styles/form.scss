@@ -1,0 +1,15 @@
+.tweet-search-form {
+  .form-element {
+    display: flex;
+    align-items: center;
+
+    label,
+    input {
+      margin-right: 16px;
+    }
+
+    input {
+      width: 100%;
+    }
+  }
+}
